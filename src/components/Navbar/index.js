@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { animateScroll as scroll } from "react-scroll";
+import { useNavigate } from "react-router-dom";
 import {
   Nav,
   NavbarContainer,
@@ -17,6 +18,7 @@ import {
 
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
+  let navigate = useNavigate();
 
   const changeNav = () => {
     if (window.scrollY > 80) {
@@ -52,7 +54,7 @@ const Navbar = ({ toggle }) => {
                   smooth={true}
                   duration={500}
                   spy={true}
-                  offset={-80}
+                 
                 >
                   ¿Quiénes somos?
                 </NavLinks>
@@ -63,7 +65,7 @@ const Navbar = ({ toggle }) => {
                   smooth={true}
                   duration={500}
                   spy={true}
-                  offset={-80}
+                  
                 >
                   Nuestra Visión
                 </NavLinks>
@@ -86,7 +88,7 @@ const Navbar = ({ toggle }) => {
                   smooth={true}
                   duration={500}
                   spy={true}
-                  offset={-80}
+                
                 >
                   Servicios
                 </NavLinks>
@@ -108,14 +110,14 @@ const Navbar = ({ toggle }) => {
                   smooth={true}
                   duration={500}
                   spy={true}
-                  offset={-80}
+                  
                 >
                   Contáctenos
                 </NavLinks>
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <NavBtnLink to="/signin">Iniciar Sesión</NavBtnLink>
+              <NavBtnLink target="_blank" href="https://avansat6.intrared.net:8083/ap/sate_ltrans/session.php?op=2&usuario=admin-ltrans&app=1" >Iniciar Sesión</NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>

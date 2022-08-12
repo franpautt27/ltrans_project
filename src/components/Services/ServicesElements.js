@@ -35,6 +35,7 @@ export const ServicesWrapper = styled.div`
 
 export const ServicesCard = styled.div`
     background: #fff;
+    
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -48,7 +49,7 @@ export const ServicesCard = styled.div`
     &:hover {
         transform: scale(1.02);
         transition: all 0.2s ease-in-out;
-        cursor: pointer;
+        
     }
 
     @media screen and (max-width: 768px){

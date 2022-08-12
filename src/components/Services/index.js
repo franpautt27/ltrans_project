@@ -10,20 +10,21 @@ const Services = () => {
         <ServicesH1>Nuestros Servicios</ServicesH1>
         <ServicesWrapper>
             <ServicesCard>
-                <ServicesIcon src={Camion}/>
+                <ServicesIcon src={"./images/IMG_6958.jpg"}/>
                 <ServicesH2>Transporte de contenedores</ServicesH2>
-                <ServicesP>We help reduce your fees and increase your overall revenue</ServicesP>
+                <ServicesP>Importación y exportación a Puertos de Barranquilla - Cartagena</ServicesP>
             </ServicesCard>
             <ServicesCard>
-                <ServicesIcon src={Camion}/>
+                <ServicesIcon src={"./images/DSC_0213.jpg"}/>
                 <ServicesH2>Operaciones con SideLifter</ServicesH2>
-                <ServicesP> You can access our platform anywhere in the world</ServicesP>
+                <ServicesP>Movilización, carga y descarga a piso contenedores</ServicesP>
             </ServicesCard>
             <ServicesCard>
-                <ServicesIcon src={Camion}/>
-                <ServicesH2>Transporte desde Puertos</ServicesH2>
-                <ServicesP>Unlock our special memberhip card that returns 5% cash back</ServicesP>
+                <ServicesIcon src={"./images/DSC_0842.jpg"}/>
+                <ServicesH2>Transporte carga suelta {">"} 3.5 Ton y ligera {"(< 3.5 Ton.)"}</ServicesH2>
+                <ServicesP>Carga de contenedores completos mayores a las 3.5 toneladas y ligeros</ServicesP>
             </ServicesCard>
+            
         </ServicesWrapper>
     </ServicesContainer>
   )

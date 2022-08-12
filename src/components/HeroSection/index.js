@@ -26,9 +26,9 @@ const HeroSection = () => {
           <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
         </HeroBg>
         <HeroContent>
-          <HeroH1>Bienvenido a la mejor alternativa de Transporte</HeroH1>
+          <HeroH1>Bienvenido a la mejor alternativa de Transporte Urbano Contenerizado</HeroH1>
           <HeroP>
-            Integridad, transparencia, y efectividad son los valores que nos identifican como compañía. <br /> ¿Qué esperas para transportar con nosotros?
+          Flota propia, cumplimiento de programacion, transperencia y seguridad son nuestras ventajas competitivas <br /> ¿Qué esperas para transportar con nosotros?
           </HeroP>
           <HeroBtnWrapper>
             <Button to="contactenos"

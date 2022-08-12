@@ -33,35 +33,41 @@ const Footer = () => {
         <FooterLinkContainer>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>Sobre Nosotros</FooterLinkTitle>
-              <FooterLink to="">Quienes somos</FooterLink>
-              <FooterLink to="">Servicios</FooterLink>
-              <FooterLink to="">Ubíquenos</FooterLink>
-              <FooterLink to="">Contáctenos</FooterLink>
+              <FooterLinkTitle>Barranquilla</FooterLinkTitle>
+              <FooterLink to="">Cra 42 No 4-52 Zona Portuaria. </FooterLink>
+              <FooterLink to="">(+57) 340-5225</FooterLink>
+              <FooterLink to="">asanchez@l-trans.co</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
-              <FooterLinkTitle>Sobre Nosotros</FooterLinkTitle>
-              <FooterLink to="">Quienes somos</FooterLink>
-              <FooterLink to="">Servicios</FooterLink>
-              <FooterLink to="">Ubíquenos</FooterLink>
-              <FooterLink to="">Contáctenos</FooterLink>
+              <FooterLinkTitle>Cartagena</FooterLinkTitle>
+              <FooterLink to="">
+                Avenida Principal del Bosque, Sector San Isidro Transversal 54 #
+                28-25, Edificio Movisol Of. 201 Piso 2
+              </FooterLink>
+              <FooterLink to="">(+57) 6426994 </FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>Sobre Nosotros</FooterLinkTitle>
-              <FooterLink to="">Quienes somos</FooterLink>
-              <FooterLink to="">Servicios</FooterLink>
-              <FooterLink to="">Ubíquenos</FooterLink>
-              <FooterLink to="">Contáctenos</FooterLink>
+              <FooterLink smooth={true}
+                  duration={500}
+                  spy={true}
+                   to="quienes-somos">Quienes somos</FooterLink>
+              <FooterLink smooth={true}
+                  duration={500}
+                  spy={true}
+                  to="services">Servicios</FooterLink>
+              <FooterLink smooth={true}
+                  duration={500}
+                  spy={true}
+                  offset={-80} to="ubiquenos">Ubíquenos</FooterLink>
+              <FooterLink smooth={true}
+                  duration={500}
+                  spy={true}
+                  to="contactenos">Contáctenos</FooterLink>
             </FooterLinkItems>
-            <FooterLinkItems>
-              <FooterLinkTitle>Social Media</FooterLinkTitle>
-              <FooterLink to="">Instagram</FooterLink>
-              <FooterLink to="">Facebook</FooterLink>
-              <FooterLink to="">Twitter</FooterLink>
-              <FooterLink to="">Youtube</FooterLink>
-            </FooterLinkItems>
+            
           </FooterLinksWrapper>
         </FooterLinkContainer>
         <SocialMedia>
@@ -70,9 +76,9 @@ const Footer = () => {
               L-Trans
             </SocialLogo>
             <WebsiteRights>
-              L-Trans {new Date().getFullYear()} All Rights Reserved{" "}
+              L-Trans {new Date().getFullYear()} Todos los derechos reservados{" "}
             </WebsiteRights>
-            <SocialIcons>
+            {/* <SocialIcons>
               <SocialIconLink
                 href="//www.facebook.com"
                 target="_blank"
@@ -89,7 +95,7 @@ const Footer = () => {
               <SocialIconLink href="/" target="_blank" aria-label="Linkedin">
                 <FaLinkedin />
               </SocialIconLink>
-            </SocialIcons>
+            </SocialIcons> */}
           </SocialMediaWrap>
         </SocialMedia>
       </FooterWrap>

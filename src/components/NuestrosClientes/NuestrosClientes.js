@@ -5,7 +5,9 @@ import "./nuestrosClientes.css";
 const NuestrosClientes = () => {
   return (
     <div className="carrouselBody" id="clientes">
-      <h1 className="title">Nuestros Clientes</h1>
+      <h1 style={{color: "#0f479a"}} className="title">Nuestros Clientes</h1>
+      <h3 >L-TRANS ofrece la mejor alternativa en el servicio de transporte de Carga suelta, paletizada y en contenedor.</h3>
+      <h3>Nuestros clientes nos respaldan:</h3>
       <div className="slider">
         <div className="slide-track">
           {/* 6 SLIDES */}
