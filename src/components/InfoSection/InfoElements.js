@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const InfoContainer = styled.div`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
-
+  padding-top: 80px;
+  padding-bottom: 80px;
   @media screen and (max-width: 768px) {
     padding: 100px 0;
   }
@@ -12,7 +13,7 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 860px;
+  
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
@@ -30,7 +31,7 @@ export const InfoRow = styled.div`
 
   @media screen and (max-width: 768px) {
     grid-template-areas: ${({ imgStart }) =>
-      imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
+      imgStart ? `'col1' 'col2'` : `'col2' 'col1'`};
   }
 `;
 
@@ -98,3 +99,14 @@ export const Img = styled.img`
   padding-right: 0;
   clip-path: ${({ imgStart }) => (imgStart ? "polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%)" : "polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%)")};
 `;
+
+export const CertificationContainer = styled.div`
+  padding-bottom: 30;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+  }
+`

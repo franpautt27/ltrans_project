@@ -29,7 +29,7 @@ const ContactForm = () => {
               <ContactTextWrapper>
                 <ContactTopLine>¡Contactenos!</ContactTopLine>
                 <ContactHeading>Puedes dejar tus datos para que programemos una llamada o e-mail.</ContactHeading>
-                <ContactSubtitle>Buenasss</ContactSubtitle>
+                
               </ContactTextWrapper>
             </ContactColumn1>
             <ContactColumn2>

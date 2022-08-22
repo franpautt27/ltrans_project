@@ -15,7 +15,7 @@ const Services = () => {
                 <ServicesP>Importación y exportación a Puertos de Barranquilla - Cartagena</ServicesP>
             </ServicesCard>
             <ServicesCard>
-                <ServicesIcon src={"./images/DSC_0213.jpg"}/>
+                <ServicesIcon src={"./images/DSC_0845.jpg"}/>
                 <ServicesH2>Operaciones con SideLifter</ServicesH2>
                 <ServicesP>Movilización, carga y descarga a piso contenedores</ServicesP>
             </ServicesCard>

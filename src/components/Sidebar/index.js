@@ -54,7 +54,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             spy={true}
             offset={-80}
             onClick={toggle}
-            to="servicios"
+            to="services"
           >
             Servicios
           </SidebarLink>
@@ -80,7 +80,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to="/signin">Sign In</SidebarRoute>
+          <SidebarRoute target="_blank" href="https://avansat6.intrared.net:8083/ap/sate_ltrans/session.php?op=2&usuario=admin-ltrans&app=1">Iniciar sesión</SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
