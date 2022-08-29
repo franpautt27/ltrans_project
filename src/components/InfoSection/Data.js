@@ -10,7 +10,7 @@ export const homeObj1 = {
     "Empresa con mas de 20 años de experiencia en el sector de transporte de carga terrestre, especializada en carga contenerizada, que debido a su estrategia enfocada a la excelencia operativa y a la buena comunicacion con el cliente ha logrado un crecimiento en conjunto y la maximizacion de valor de los accionistas y sus colaboradores. ",
   buttonLabel: "Nuestros servicios",
   imgStart: false,
-  img: "./images/DSC_0845.jpg",
+  img: "./images/DSC_0213.jpg",
   alt: "Car",
   dark: true,
   primary: true,
