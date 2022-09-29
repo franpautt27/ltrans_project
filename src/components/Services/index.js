@@ -20,9 +20,9 @@ const Services = () => {
                 <ServicesP>Movilización, carga y descarga a piso contenedores</ServicesP>
             </ServicesCard>
             <ServicesCard>
-                <ServicesIcon src={"./images/DSC_0842.jpg"}/>
+                <ServicesIcon src={"./images/tipoturbo.jpeg"}/>
                 <ServicesH2>Transporte carga suelta {">"} 3.5 Ton y ligera {"(< 3.5 Ton.)"}</ServicesH2>
-                <ServicesP>Carga de contenedores completos mayores a las 3.5 toneladas y ligeros</ServicesP>
+                <ServicesP>Carga Suelta desde hasta 35 toneladas con tractomula y hasta 3.5 toneladas con Camión tipo turbo furgonado</ServicesP>
             </ServicesCard>
             
         </ServicesWrapper>

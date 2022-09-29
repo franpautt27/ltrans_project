@@ -90,7 +90,7 @@ export const ServicesH2 = styled.h2`
 `
 
 export const ServicesP = styled.p`
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-align: center;
     margin-bottom: 10px;
     margin-left: 30px;
