@@ -9,7 +9,6 @@ import {
   ContactTextWrapper,
   ContactTopLine,
   ContactHeading,
-  ContactSubtitle,
   ContactColumn2,
   FormWrap,
   Form,
