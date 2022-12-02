@@ -35,38 +35,4 @@ export const homeObj2 = {
   primary: false,
   darkText: true,
 };
-export const homeObj3 = {
-  id: "signup",
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: true,
-  topLine: "Premium Bank",
-  headLine: "Unlimited transactions with zero fees",
-  description:
-    "Get access to all exclusive app that allows you to send unlimited transactions without getting charged any fees",
-  buttonLabel: "Get Started",
-  imgStart: false,
-  img: "./images/svg-1.svg",
-  alt: "Car",
-  dark: true,
-  primary: true,
-  darkText: false,
-};
 
-export const homeObj4 = {
-  id: "contactenos",
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: true,
-  topLine: "Premium Bank",
-  headLine: "Unlimited transactions with zero fees",
-  description:
-    "Get access to all exclusive app that allows you to send unlimited transactions without getting charged any fees",
-  buttonLabel: "Get Started",
-  imgStart: false,
-  img: "./images/svg-1.svg",
-  alt: "Car",
-  dark: true,
-  primary: true,
-  darkText: false,
-};

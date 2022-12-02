@@ -4,7 +4,7 @@ import ContactForm from '../components/ContactFormSection';
 import Footer from '../components/Footer';
 import HeroSection from '../components/HeroSection';
 import InfoSection from '../components/InfoSection';
-import { homeObj1, homeObj2, homeObj3, homeObj4} from '../components/InfoSection/Data';
+import { homeObj1, homeObj2} from '../components/InfoSection/Data';
 import MapView from '../components/MapView/MapView';
 import Navbar from '../components/Navbar'
 import NuestrosClientes from '../components/NuestrosClientes/NuestrosClientes';
