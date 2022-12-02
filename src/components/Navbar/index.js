@@ -76,7 +76,6 @@ const Navbar = ({ toggle }) => {
                   smooth={true}
                   duration={500}
                   spy={true}
-                  offset={-80}
                 >
                   Clientes
                 </NavLinks>
@@ -99,7 +98,6 @@ const Navbar = ({ toggle }) => {
                   smooth={true}
                   duration={500}
                   spy={true}
-                  offset={-80}
                 >
                   Ubíquenos
                 </NavLinks>
